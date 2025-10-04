@@ -64,10 +64,10 @@ systemctl restart ssh
 
 # Install coolify
 # ver.3
-(curl -fsSL https://get.coollabs.io/coolify/install.sh -o install.sh && sudo bash ./install.sh -f) 2>&1 | tee -a "$LOG_FILE"
+# (curl -fsSL https://get.coollabs.io/coolify/install.sh -o install.sh && sudo bash ./install.sh -f) 2>&1 | tee -a "$LOG_FILE"
 
 # ver.4
-# (curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash) 2>&1 | tee -a "$LOG_FILE"
+(curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash) 2>&1 | tee -a "$LOG_FILE"
 
 
 echo "Script completed at $(date)"
